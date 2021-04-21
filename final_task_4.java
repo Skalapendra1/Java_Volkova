@@ -27,6 +27,7 @@ public class final_task_4 {
 
             else if ((vvod.equalsIgnoreCase(pod))&((i==2)|(i==3))){
                 System.out.println("Подсказка уже недоступна");
+                i--;
             }
             else if ((!res.equalsIgnoreCase(vvod))& (!pod.equalsIgnoreCase(vvod)) & ((i==1)|(i==2))){
                 System.out.println("Подумай еще!");
